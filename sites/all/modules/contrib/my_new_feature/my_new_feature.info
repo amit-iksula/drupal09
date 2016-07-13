@@ -1,0 +1,14 @@
+name = My New feature
+core = 7.x
+package = Features
+version = 7.x-1.0-beta1
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[node][] = slidshow
+features[views_view][] = slideshow
+features_exclude[dependencies][features] = features
+features_exclude[dependencies][image] = image
+features_exclude[dependencies][views] = views
+features_exclude[dependencies][views_slideshow] = views_slideshow
+features_exclude[field_base][field_slideimages] = field_slideimages
+features_exclude[field_instance][node-slidshow-field_slideimages] = node-slidshow-field_slideimages

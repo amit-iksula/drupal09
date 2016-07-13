@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the My New feature feature.
+ */
+
+include_once 'my_new_feature.features.inc';
